@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'; // Fixed import
-import { getDaysInMonth, getFirstDayOfMonth } from '../DateUtils/DateUtils';
-import Days from '../Days/Days';
+import { getDaysInMonth, getFirstDayOfMonth } from '../DateUtils/DateUtils.js';
+import Days from '../Days/Days.js';
 import './CalendarBody.css';
 
 class CalendarBody extends Component {
