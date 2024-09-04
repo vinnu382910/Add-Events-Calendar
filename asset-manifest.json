@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/add-event-calendar/static/css/main.a4bcb34b.css",
-    "main.js": "/add-event-calendar/static/js/main.e46a3961.js",
-    "static/js/453.31d74acc.chunk.js": "/add-event-calendar/static/js/453.31d74acc.chunk.js",
-    "index.html": "/add-event-calendar/index.html",
-    "main.a4bcb34b.css.map": "/add-event-calendar/static/css/main.a4bcb34b.css.map",
-    "main.e46a3961.js.map": "/add-event-calendar/static/js/main.e46a3961.js.map",
-    "453.31d74acc.chunk.js.map": "/add-event-calendar/static/js/453.31d74acc.chunk.js.map"
+    "main.css": "/Add-Events-Calendar/static/css/main.a4bcb34b.css",
+    "main.js": "/Add-Events-Calendar/static/js/main.d32c3392.js",
+    "static/js/453.31d74acc.chunk.js": "/Add-Events-Calendar/static/js/453.31d74acc.chunk.js",
+    "index.html": "/Add-Events-Calendar/index.html",
+    "main.a4bcb34b.css.map": "/Add-Events-Calendar/static/css/main.a4bcb34b.css.map",
+    "main.d32c3392.js.map": "/Add-Events-Calendar/static/js/main.d32c3392.js.map",
+    "453.31d74acc.chunk.js.map": "/Add-Events-Calendar/static/js/453.31d74acc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4bcb34b.css",
-    "static/js/main.e46a3961.js"
+    "static/js/main.d32c3392.js"
   ]
 }
