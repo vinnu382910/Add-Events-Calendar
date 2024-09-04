@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CalendarBody from './components/CalendarBody/CalendarBody.js';
 import './App.css';
 
@@ -25,7 +25,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div className="app" basename="/add-events">
       <CalendarBody 
         month={currentMonth} 
         year={currentYear} 
