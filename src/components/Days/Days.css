@@ -1,0 +1,225 @@
+.present-day {
+    background-color: #2ff8ff;
+    color: #000;
+}
+.popup-cont {
+    display: flex;
+    flex-direction: column;
+    color: aquamarine;
+    border: 2px solid #620075;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #61efa6;
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.popup-header-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-heading {
+    font-family: Roboto;
+    font-weight: bold;
+    color: rgb(95, 0, 90);
+}
+
+.line {
+    color: rgb(95, 0, 90);
+    height: 2px;
+    border: 2px solid;
+    background-color: #680060;
+    width: 100%;
+}
+
+.add-event {
+    align-self: flex-end;
+    height: 35px;
+    width: 150px;
+    background-color: #680060;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* From Uiverse.io by reshades */ 
+/* From Uiverse.io by reshades */ 
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #ffd500 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #ffc800;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+    color: #000;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em;
+    color: #000;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebeaea;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.form-heading {
+    color: #680060;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-cont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.labelElement {
+    color: #680060;
+    font-weight: bold;
+}
+
+.inputEl {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid #ae1ba2;
+    width: 300px;
+    color: #680060;
+    font-weight: bold
+}
+
+.DescInputEl {
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid #ae1ba2;
+    font-size: 22px;
+}
+
+.add-event-btn {
+    width: 100%;
+}
+
+.add-event-btn {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid #0543ff;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.events-list-cont {
+    list-style: none;
+    color: #000;
+    min-height: 150px;
+    overflow-y: auto;
+    overflow-y: none;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.list-cont {
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.para {
+    margin: 0px;
+}
+
+.time {
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+.description {
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.day {
+    min-height: 80px;
+    max-height: 80px;
+    font-weight: bold
+}
+
+.exists-event {
+    background-color: #ff9737;
+}
+
+.event-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    padding: 0%;
+}
