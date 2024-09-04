@@ -209,7 +209,11 @@
 .day {
     min-height: 80px;
     max-height: 80px;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 22px;
+    border: 1.5px solid #03ff7d;
+    cursor: pointer;
+    background-color: #e5e5e5;
 }
 
 .exists-event {
